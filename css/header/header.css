@@ -1,0 +1,637 @@
+/*header*/
+
+.header_kk {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.head_top {
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  height: 55px;
+  line-height: 55px;
+}
+
+.head_top_left {
+  float: left;
+
+  color: #666;
+
+}
+
+.head_top_left span, .head_top_right_icon {
+  margin-right: 15px;
+}
+
+.head_top_left span img, .head_top_right_icon img {
+  margin-right: 3px;
+}
+
+.head_top_right {
+  float: right;
+
+}
+
+.head_top_right_box {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+
+.head_top_right_box span {
+  position: absolute;
+  bottom: 8px;
+  right: -2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #002246;
+  font-size: 12px;
+  color: #FFF;
+  line-height: 15px;
+  text-align: center;
+}
+
+.head_top_right_box_input {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #999;
+  line-height: 30px;
+  position: relative;
+
+}
+
+.bumer {
+  background: url("../images/search.png") 5px 5px no-repeat;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  border: 0px;
+  outline: none;
+
+}
+
+.head_top_right_box_input input {
+  border: 0px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+.head_list {
+  width: 100%;
+  text-align: center;
+  height: 55px;
+
+}
+
+.head_list ul {
+  padding-left: 0px;
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+
+}
+
+.head_list ul li {
+  float: left;
+
+  /*  position: relative;*/
+}
+
+.head_kk_a:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+
+}
+
+.logo_con:after {
+  display: none;
+}
+
+.head_list ul li:hover .head_kk_a:after {
+  background-color: #f6d876;
+}
+
+.head_list_r a {
+  margin-left: 0px !important;
+  margin-right: 25px;
+}
+
+.header-logo{
+  width:212px;
+  height:55px;
+  background: #515151;
+  margin-right:50px;
+}
+.header-logo img{
+  width:120px;height:45px;margin-top: 5px;
+}
+
+.logo_con {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  position: relative;
+  text-align: center;
+}
+
+.head_kk_a {
+  font-family: STXihei, STHeitiLight, 'Microsoft JhengHei', 'Microsoft YaHei', Arial, sans-serif !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 55px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.warpper {
+  padding-top: 105px;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+
+}
+
+.head_menu {
+  width: 100%;
+  background-color: #ededed;
+
+}
+
+.head_menu_tit h3 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.head_menu_box {
+  display: none;
+
+}
+
+.head_menu_box .container {
+  padding: 20px 15px;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+
+.head_op {
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+.head_menu_list ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: block;
+
+}
+
+.head_menu_list ul li {
+  line-height: 35px;
+  width: 100%;
+  text-align: left;
+  font-family: "MS P Gothic", Verdana, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.head_menu_rbox {
+  position: relative;
+}
+
+.head_menu_box_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  cursor: pointer;
+
+}
+
+.head_menu_rbox:hover .head_menu_box_bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.head_menu_text {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  width: 100%;
+
+}
+
+.head_menu_text h4 {
+  padding-bottom: 20px;
+  min-height: 65px;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  position: relative;
+
+}
+
+.head_menu_text h4:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #f6d876;
+  position: absolute;
+  right: 0;
+  bottom: 13px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head_menu_right {
+  margin-top: -20px;
+}
+
+.head_menu_right:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  background-color: #dadada;
+  top: 0px;
+}
+
+.head_menu_right .col-sm-3 {
+  padding-right: 2px;
+}
+
+.head_menu_rbox {
+  margin-top: 20px;
+}
+
+.meau_line {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+
+}
+
+/*header*/
+
+/*header*/
+
+.header_kk {
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  background-color: #FFF;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.head_top {
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  height: 55px;
+  line-height: 55px;
+}
+
+.head_top_left {
+  float: left;
+  color: #666;
+}
+
+.head_top_left span, .head_top_right_icon {
+  margin-right: 15px;
+}
+
+.head_top_left span img, .head_top_right_icon img {
+  margin-right: 3px;
+}
+
+.head_top_right {
+  float: right;
+}
+
+.head_top_right_box {
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+}
+
+.head_top_right_box span {
+  position: absolute;
+  bottom: 8px;
+  right: -2px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #002246;
+  font-size: 12px;
+  color: #FFF;
+  line-height: 15px;
+  text-align: center;
+}
+
+.head_top_right_box_input {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  border: 1px solid #999;
+  line-height: 30px;
+  position: relative;
+}
+
+.bumer {
+  background: url("../images/search.png") 5px 5px no-repeat;
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  border: 0px;
+  outline: none;
+}
+
+.head_top_right_box_input input {
+  border: 0px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  color: #666;
+  padding-left: 30px;
+  line-height: 30px;
+}
+
+.head_list {
+  width: 100%;
+  text-align: center;
+  height: 55px;
+}
+
+.head_list ul {
+  padding-left: 0px;
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.head_list ul li {
+  float: left;
+}
+
+.head_kk_a:after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 4px;
+  background-color: #fff;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.logo_con:after {
+  display: none;
+}
+
+.head_list ul li:hover .head_kk_a:after {
+  background-color: #f6d876;
+}
+
+.head_list_r a {
+  margin-left: 0px !important;
+  margin-right: 25px;
+}
+
+.logo_con {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  position: relative;
+  text-align: center;
+}
+
+.head_menu {
+  width: 100%;
+  background-color: #ededed;
+}
+
+.head_menu_tit h3 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.head_menu_box {
+  display: none;
+}
+
+.head_menu_box .container {
+  padding: 20px 15px;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+}
+
+.head_op {
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+}
+
+.head_menu_list ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: block;
+}
+
+.head_menu_list ul li {
+  line-height: 35px;
+  width: 100%;
+  text-align: left;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS P Gothic", Verdana, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.head_menu_rbox {
+  position: relative;
+}
+
+.head_menu_box_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  cursor: pointer;
+}
+
+.head_menu_rbox:hover .head_menu_box_bg {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.head_menu_text {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  width: 100%;
+}
+
+.head_menu_text h4 {
+  padding-bottom: 20px;
+  min-height: 65px;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.head_menu_text h4:after {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #f6d876;
+  position: absolute;
+  right: 0;
+  bottom: 13px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.head_menu_right {
+  margin-top: -20px;
+}
+
+.head_menu_right:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  background-color: #dadada;
+  top: 0px;
+}
+
+.head_menu_right .col-sm-3 {
+  padding-right: 2px;
+}
+
+.head_menu_rbox {
+  margin-top: 20px;
+}
+
+.meau_line {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+}
+.pro_tit {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: #002247;
+  position: fixed;
+  top: 55px;
+  width: 100%;
+  left: 0px;
+  z-index:9991;
+}
+.pro_tit ul {
+  display: inline-block;
+}
+
+.pro_tit ul li {
+  display: inline-block;
+  padding: 0 20px;
+  color: #eee;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+.pro_tit ul li a {
+  color: #eee;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+
+}
+
+.pro_tit_color {
+  color: #eee !important;
+}
+
+/*header*/

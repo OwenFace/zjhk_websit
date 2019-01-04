@@ -1,0 +1,48 @@
+
+/* 底部 */
+.com_footer{
+	width: 100%;
+	padding: 40px 0;
+	background: #222222;
+}
+.com_footer_contanier{
+	width: 1200px;
+	margin: 0 auto;
+}
+.com_foot{
+	float: left;
+	width: 10%;
+	text-align: left;
+	margin-right: 1%;
+}
+.com_foot2{
+	float: left;
+	width: 20%;
+	text-align: left;
+	margin-right: 1%;
+}
+.com_foot h2,.com_foot2 h2,.foot_erweima h2{
+	font-size: 20px;
+	color:#fff;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.foot_erweima{
+	float: left;
+	width: 12%;
+	text-align: center;
+}
+.foot_ul{
+	padding: 0 0 0 5%;
+	margin: 0;
+	box-sizing: border-box;
+}
+.foot_ul li{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.foot_ul li a{
+	color: #fff!important;
+}
+
+/* 底部 */
